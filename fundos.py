@@ -1,0 +1,8 @@
+fundos = float(input("Digite os FUNDOS do mês: "))
+print("\n\n")
+feadmp = ((10*fundos)/ 100)
+print(f'Valor FEADMP 10%: R${feadmp:.2f}')
+funadep = ((6*fundos)/ 100)
+print(f'Valor FUNADEP 6%: R$ {funadep:.2f}')
+fundpge = ((4*fundos)/ 100)
+print(f'Valor FUNDPGE 4%: R${fundpge:.2f}')
